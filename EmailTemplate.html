@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{nama_toko}}</title>
+</head>
+<body style="background-color: #EEEEEE; padding: 20px 0; width: 100%; min-width: 320px; font-family: Arial, sans-serif;">
+  <div style="line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #E0E0E0; border-radius: 8px; overflow: hidden; background-color: #ffffff;">
+    <div style="background-color: {{BG_SECONDARY}}; padding: 20px; text-align: center; border-bottom: 1px solid #E0E0E0;">
+      <h1 style="color: #333; margin: 0; font-size: 24px;">Terima Kasih Atas Pesananmu!</h1>
+    </div>
+    <div style="padding: 20px;">
+      <p style="margin-bottom: 10px; font-size: 16px;">Halo <strong style="color: #333;">{{nama_pembeli}}</strong>,</p>
+      <p style="margin-bottom: 10px; font-size: 16px;">Terima kasih banyak sudah berbelanja di <strong style="color: #333;">{{nama_toko}}</strong>! Kami senang sekali kamu memilih produk digital kami.</p>
+      <p style="margin-bottom: 10px; font-size: 16px;">Berikut adalah detail pesanan dan tautan unduh produkmu:</p>
+      
+      <div style="background-color: #f9f9f9; border-left: 4px solid {{ACCENT_COLOR_1}}; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+        <p style="margin: 0; font-size: 17px; font-weight: bold;">Nomor Pesanan: <span style="color: {{ACCENT_COLOR_1}};">{{nomor_pesanan}}</span></p>
+        <hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;">
+        <p style="margin: 0; font-size: 16px;"><strong>Produk yang kamu beli:</strong></p>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          {{daftar_produk_dan_link}}
+        </table>
+        <hr style="border: 0; border-top: 1px dashed #ccc; margin: 15px 0;">
+      </div>
+
+      <p style="margin-top: 10px; margin-bottom: 10px; font-size: 16px;">Silakan klik tautan di atas untuk mengunduh produkmu. Pastikan emailmu yang terdaftar memiliki akses ke Google Drive.</p>
+      
+      <div style="background-color: #F0F8F0; border-left: 4px solid {{ACCENT_COLOR_2}}; padding: 15px; margin-top: 25px; border-radius: 4px;">
+        <p style="margin-top: 0; font-size: 16px; font-weight: bold; color: {{ACCENT_COLOR_2}};">Informasi Garansi Akses Unduhan Permanen:</p>
+        <p style="font-size: 16px; margin-bottom: 10px;">Kami berkomitmen memberikan <strong style="color: #333;">akses unduhan permanen</strong> untuk produk ini selama <strong style="color: #333;">{{nama_toko}}</strong> masih beroperasi. Untuk memastikan garansi ini aktif, mohon perhatikan syarat berikut:</p>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td style="padding-bottom: 8px;">
+              <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td valign="top" style="padding-right: 5px;">
+                    <span style="color: {{ACCENT_COLOR_2}}; font-weight: bold; font-size: 16px; line-height: 1.2;">&#10003;</span>
+                  </td>
+                  <td valign="top" style="font-size: 16px; line-height: 1.2; color: #333333;">
+                    <strong>Konfirmasi Pesanan:</strong> Klik "Selesai" / "Pesanan Diterima" maksimal 72 Jam setelah pembelian.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 8px;">
+              <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td valign="top" style="padding-right: 5px;">
+                    <span style="color: {{ACCENT_COLOR_2}}; font-weight: bold; font-size: 16px; line-height: 1.2;">&#10003;</span>
+                  </td>
+                  <td valign="top" style="font-size: 16px; line-height: 1.2; color: #333333;">
+                    <strong>Dukungan Toko:</strong> Wajib *follow* Toko {{nama_toko}}.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td valign="top" style="padding-right: 5px;">
+                    <span style="color: {{ACCENT_COLOR_2}}; font-weight: bold; font-size: 16px; line-height: 1.2;">&#10003;</span>
+                  </td>
+                  <td valign="top" style="font-size: 16px; line-height: 1.2; color: #333333;">
+                    <strong>Ulasan Jujur:</strong> Wajib Memberikan Bintang 5 dan komentar/penilaian Terbaik.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <p style="margin-top: 20px; font-size: 16px;">Jika kamu memiliki pertanyaan atau butuh bantuan lebih lanjut, jangan ragu hubungi kami melalui Chat Toko <a href="{{link_toko_shopee}}" style="color: {{ACCENT_COLOR_1}}; text-decoration: none;"><strong>{{nama_toko}}</strong></a>.</p>
+      <p style="margin-top: 15px; font-size: 14px; color: #777; text-align: center;">Mohon maaf, email ini adalah pesan otomatis dan tidak menerima balasan. Untuk bantuan lebih lanjut, silakan hubungi kami melalui fitur Chat Toko Shopee. Kami siap membantu!</p>
+    </div>
+    <div style="background-color: {{BG_SECONDARY}}; padding: 15px; text-align: center; font-size: 12px; color: #777; border-top: 1px solid #E0E0E0;">
+      <p style="margin: 0;">Salam hangat,</p>
+      <p style="margin: 0;"><strong>Tim {{nama_toko}}</strong></p>
+    </div>
+  </div>
+</body>
+</html>
