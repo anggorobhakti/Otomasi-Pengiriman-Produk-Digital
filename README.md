@@ -38,7 +38,7 @@ Anda dapat mencoba fungsionalitas program ini secara langsung dengan data publik
 
 * **Produk Dummy**: [Link ke Produk Dummy](https://drive.google.com/file/d/1MBONyDTZ1vXlYSo9_B397fvhS9MkiWF-/view?usp=drive_link)
 * **Isi Formulir Demo**: [Link ke Google Form Dummy](https://forms.gle/rz78n3FxW4FKSxKR7)
-* **Lihat Spreadsheet Demo**: [Link ke Google Spreadsheet Dummy Anda](https://docs.google.com/spreadsheets/d/17FFyKdyhW5wqy_V7uzGg6WAhh3W-NyFWtxn4Viwk-1I/edit?usp=sharing)
+* **Lihat Spreadsheet Demo**: [Link ke Google Spreadsheet Dummy](https://docs.google.com/spreadsheets/d/17FFyKdyhW5wqy_V7uzGg6WAhh3W-NyFWtxn4Viwk-1I/edit?usp=sharing)
 * **Lihat Arsip Demo**: [Link ke Google Spreadsheet Arsip Dummy](https://docs.google.com/spreadsheets/d/1Tr850yqMcfFdqLru8oqQVpDt-Gp7I9o9JT94a7n-QFc/edit?usp=sharing)
 
 (Catatan: Spreadsheet demo ini dibuat untuk keperluan publik. Setelah data formulir diproses secara instan, baris data akan dipindahkan ke tab 'Arsip Dummy'. Karena tab ini dapat diedit oleh siapa saja, data di dalamnya sewaktu-waktu bisa terhapus.)
