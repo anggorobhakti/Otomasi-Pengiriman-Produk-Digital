@@ -10,13 +10,13 @@ function sendOrderConfirmationEmail(data) {
   const scriptProperties = PropertiesService.getScriptProperties();
 
   // Ambil email pengirim dari Secrets dan bersihkan
-  const emailToko1 = scriptProperties.getProperty('EMAIL_TOKO_A');
-  const emailToko2 = scriptProperties.getProperty('EMAIL_TOKO_B');
+  const emailTokoA = scriptProperties.getProperty('EMAIL_TOKO_A');
+  const emailTokoB = scriptProperties.getProperty('EMAIL_TOKO_B');
 
   // Tentukan email pengirim dan link toko berdasarkan nama toko
   let emailPengirim;
   let linkTokoShopee;
-  if (data.namaToko.toLowerCase().includes(config.FORM_OPTIONS.TOKO_NAMA.toLowerCase())) {
+  if (data.namaToko.toLowerCase().includes(config.FORM_OPTIONS.TOKO_NAMA_B.toLowerCase())) {
     emailPengirim = emailTokoB;
     linkTokoShopee = 'https://shopee.co.id/namatokob';
   } else { // Default ke Toko A
