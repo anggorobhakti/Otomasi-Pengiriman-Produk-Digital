@@ -1,7 +1,4 @@
-# Otomasi-Pengiriman-Produk-Digital
-Solusi otomatisasi untuk mengirim produk digital via email menggunakan Google Apps Script, Sheets, dan Drive.
-
-## Proyek Otomasi Pengiriman Produk Digital
+# Proyek Otomasi Pengiriman Produk Digital
 
 Proyek ini adalah solusi otomatisasi alur kerja untuk memproses pesanan produk digital dari Google Forms, memberikan akses produk via Google Drive, dan mengirim email yang berisi tautan unduhan produk kepada pelanggan secara otomatis.
 
